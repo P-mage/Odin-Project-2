@@ -1,5 +1,9 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
 }
 
 .navbar {
@@ -27,6 +31,36 @@ ul {
 
 .container_c1 {
     display: flex;
+    flex-direction: row;
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+img {
+    width: 400px;
+    height: 500px;
+}
+
+.quickInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container_c2 img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.work_history {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 700;
 }
