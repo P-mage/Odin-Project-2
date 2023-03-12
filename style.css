@@ -1,9 +1,7 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    max-width: 1200px;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .navbar {
@@ -81,16 +79,13 @@ figcaption {
 }
 
 .quoteContainer h4 {
-    max-width: 60%;
-    padding-left: 200px;
-    padding-top: 50px;
+    padding-top: 50px 50px;
     font-size: 36px;
     font-style: italic;
 }
 
 .quoteContext {
-    display: flex;
-    justify-self: center;
+    margin: auto;
 }
 
 .quoteAuthor {
