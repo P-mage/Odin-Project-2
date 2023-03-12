@@ -32,13 +32,20 @@ ul {
 .container_c1 {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-color: #1f2937;
     color: #f9faf8;
 }
 
 img {
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 420px;
+}
+
+figcaption {
+    text-align: center;
+    padding-top: 15px;
+    max-width: 200px;
 }
 
 .quickInfo {
@@ -63,4 +70,31 @@ img {
     align-self: center;
     font-size: 36px;
     font-weight: 700;
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteContainer h4 {
+    max-width: 60%;
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteContext {
+    display: flex;
+    justify-self: center;
+}
+
+.quoteAuthor {
+    padding-left: 300px;
+    font-size: 36px;
+    font-style: italic;
 }
